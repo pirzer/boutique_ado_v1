@@ -159,3 +159,4 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 
 # solution of auto-create primary key:
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+
