@@ -71,7 +71,7 @@ def remove_from_bag(request, item_id):
         if 'product_size' in request.POST:
             size = request.POST['product_size']
         bag = request.session.get('bag', {})
-        
+
         if size:
             del bag[item_id]['items_by_size'][size]
             if not bag[item_id]['items_by_size']:
@@ -81,5 +81,6 @@ def remove_from_bag(request, item_id):
 
         request.session['bag'] = bag
         return HttpResponse(status=200)
+
     except Exception as e:
         return HttpResponse(status=500)
