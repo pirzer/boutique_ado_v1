@@ -1,4 +1,8 @@
 from django.shortcuts import render, redirect, reverse, HttpResponse
+from django.contrib import messages
+
+from products.models import Product
+
 
 # Create your views here.
 
@@ -30,6 +34,7 @@ def add_to_bag(request, item_id):
     else:
         if item_id in list(bag.keys()):
             bag[item_id] += quantity
+            messages.success(request, f'{product.name} to your bag')
         else:
             bag[item_id] = quantity
 
@@ -47,14 +52,14 @@ def adjust_bag(request, item_id):
     bag = request.session.get('bag', {})
 
     if size:
-        if quantity > 0: 
+        if quantity > 0:
             bag[item_id]['items_by_size'][size] = quantity
         else:
             del bag[item_id]['items_by_size'][size]
             if not bag[item_id]['items_by_size']:
                 bag.pop(item_id)
     else:
-        if quantity > 0: 
+        if quantity > 0:
             bag[item_id] = quantity
         else:
             bag.pop[item_id]

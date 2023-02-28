@@ -78,6 +78,9 @@ TEMPLATES = [
     },
 ]
 
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
+
 AUTHENTICATION_BACKENDS = (
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
@@ -159,4 +162,3 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 
 # solution of auto-create primary key:
 DEFAULT_AUTO_FIELD='django.db.models.AutoField'
-
