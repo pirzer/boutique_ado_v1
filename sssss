@@ -1,0 +1,49 @@
+[33m7340e11[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m views template part 3
+[33m2379721[m fixing some errors such as adding 1 more line at the end of the code
+[33ma780104[m admin signals forms 2 the previous was named wronly
+[33mf682d08[m Admin, Signals & Forms Part 2
+[33m8db6e05[m created checkout and models
+[33mccacb1d[m added notification CSS, shopping bag preview, and additional messages
+[33m8c97337[m Toasts Part 2
+[33me6460a7[m added toasts
+[33mec4748c[m Toasts Part 1
+[33md5290d3[m Adjusting and Removing Products Part 2
+[33m2f3faec[m added Adjusting and Removing Products Part 1
+[33m773ac71[m Adjusting and Removing Products Part 1
+[33mfb701a7[m added quantity boxes to shopping bag page
+[33m549b3a5[m added quatity input +/- buttom
+[33m3408ec8[m finished products size logic
+[33mef7e8f1[m added sizes to product model and size selector box to prodcut template
+[33md97f4af[m git commit -m updated context processor from lesson Adding Products Part 2
+[33m3510516[m added add to bag functionality
+[33m19c9fa3[m added add to bag functionality
+[33mf6f418d[m added The Shopping Bag
+[33me0cf3f6[m added shopping bag app, urls and template
+[33mbcaa549[m adding sorting JS and back to top link
+[33ma2aa920[m added sorting and product counts to product page
+[33m46f7a52[m adding sorting out 2 filtering
+[33mf8d020e[m adding Sorting Products Part 1
+[33m9503834[m adding sorting part 1
+[33mb0c8ad9[m adding cathegories filtering lesson Queries and Categories Part 2
+[33m545c8ad[m adding search funcionallity
+[33me8d4053[m updating moving pycache from line 7 to line 3
+[33mbdca1de[m updating settings on admin boutique example in sites
+[33m8926f6c[m fixing and migrating again
+[33m8899cab[m added product details the github code from the lesson product details is wrong ie it is not following what the video displays this has to be reported
+[33ma424c50[m products details added 1
+[33mfed888d[m product details page
+[33m58e0295[m added products view and templates
+[33m0aa1ff5[m customized admin
+[33mf9b0620[m added products, models and fixtures
+[33m63458ed[m adding mobile-top-header and main-nav
+[33m08656f3[m fixing website adding image background
+[33mb6fd8b1[m fixing heading
+[33m8628469[m added main page header
+[33mc4ea99c[m added homepage content
+[33m1bc1f5f[m added home and templates
+[33m42881b3[m template organized into blocks
+[33ma5c0f2a[m added allauth templates and base template
+[33m7cdd62a[m setup allauth
+[33me0b206c[m adding admin site
+[33m116e00e[m initial commit
+[33m4d38042[m Initial commit
