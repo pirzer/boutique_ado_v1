@@ -39,7 +39,7 @@ class StripeWH_Handler:
         shipping_details = intent.shipping
         grand_total = round(intent_charge.amount / 100, 2)  # updated Stripe 15
 
-        # Clean data in the shipping details
+        #  Clean data in the shipping details
         for field, value in shipping_details.address.items():
             if value == "":
                 shipping_details.address[field] = None
