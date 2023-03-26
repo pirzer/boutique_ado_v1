@@ -26,10 +26,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
+SECRET_KEY = os.environ.get('SECRET_KEY', '4rg8i8nkag*f3b8@0@dz4faj-+h5#l1x#7#8a8-5cj')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['boutique-ado-v1-project-5', 'localhost']
 
@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
 
-    # Other
+    # Other - add 'storages', below crispy_forms
     'crispy_forms',
 ]
 
