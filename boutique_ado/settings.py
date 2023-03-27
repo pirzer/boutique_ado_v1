@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
 
-    # Other - add 'storages', below crispy_forms
+    # Other - added 'storages', below crispy_forms
     'crispy_forms',
     'storages',
 ]
