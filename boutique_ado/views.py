@@ -8,3 +8,5 @@ def handler404(request, exception):
 # added 404 - all this file views py
 # added 404 - templates/errors/404.html
 # added 404 - urls.py line 1, 32, 33
+
+
